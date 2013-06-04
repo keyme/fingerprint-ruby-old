@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
 	s.description = 'Load and verify fingerprints scanned using a U.are.U fingerprint scanner.'
 	s.authors     = ['Zachary Salzbank']
 	s.email       = 'zach@keyme.net'
-	s.files       = Dir.glob('ext/**/*.{cpp,h,rb}')
+	s.files       = Dir.glob('ext/fingerprint/*.{cpp,h,rb}') +
+									Dir.glob('ext/fingerprint/compare/*.{cpp,h,rb}')
 	s.extensions  = ['ext/fingerprint/extconf.rb']
 	s.homepage    = 'http://github.com/keyme/fingerprint-ruby'
 	s.add_dependency 'rice'
