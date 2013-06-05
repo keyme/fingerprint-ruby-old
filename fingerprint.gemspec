@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 	s.extensions  = ['ext/fingerprint/extconf.rb']
 	s.homepage    = 'http://github.com/keyme/fingerprint-ruby'
 
-	s.add_development_dependency 'rice'
+	s.add_development_dependency 'rice', '1.5.1a'
 	s.requirements << 'Rice installed from https://github.com/keyme/rice'
 
 	s.requirements << 'Drivers installed from https://github.com/keyme/fingerprint-drivers'
