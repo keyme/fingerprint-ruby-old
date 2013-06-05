@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 	s.name        = 'fingerprint'
-	s.version     = '0.0.3'
+	s.version     = '0.0.4'
 	s.date        = '2013-05-04'
 	s.summary     = 'U.are.U fingerprint scanner methods.'
 	s.description = 'Load and verify fingerprints scanned using a U.are.U fingerprint scanner.'
