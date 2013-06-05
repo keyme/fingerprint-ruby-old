@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 	s.name        = 'fingerprint'
-	s.version     = '0.0.4'
+	s.version     = '0.0.5'
 	s.date        = '2013-05-04'
 	s.summary     = 'U.are.U fingerprint scanner methods.'
 	s.description = 'Load and verify fingerprints scanned using a U.are.U fingerprint scanner.'
@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
 	s.extensions  = ['ext/fingerprint/extconf.rb']
 	s.homepage    = 'http://github.com/keyme/fingerprint-ruby'
 
-	s.add_development_dependency 'rice', '1.5.1a'
-	s.requirements << 'Rice installed from https://github.com/keyme/rice'
-
+	s.add_development_dependency 'keyme-rice'
 	s.requirements << 'Drivers installed from https://github.com/keyme/fingerprint-drivers'
 end
